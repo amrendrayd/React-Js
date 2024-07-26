@@ -1,9 +1,10 @@
 import './App.css';
+import Counter from './counter/Counter';
 
 function App() {
   return (
     <div className="App">
-        <h1>HEllo React</h1>
+        <Counter/>
     </div>
   );
 }
